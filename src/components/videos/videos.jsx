@@ -1,9 +1,8 @@
 import React from "react";
 import { Box, Stack } from "@mui/material";
-import VideoCard from "..//Video_Card/Video_Card";
-import ChannelCard from "../channel-card/channel-card";
-
+import { Loader, ChannelCard, VideoCard } from "../index";
 function Videos({ video }) {
+  if (!video.length) return <Loader />;
   return (
     <Stack
       width={"100%"}

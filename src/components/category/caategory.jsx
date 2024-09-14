@@ -16,6 +16,7 @@ function Category({ selectCategoryFn, select }) {
         >
           <span className="text-scondary mr-[15px]  ">{item.icon}</span>
           <span style={{ opacity: "1" }}>{item.name}</span>
+
         </button>
       ))}
     </Stack>

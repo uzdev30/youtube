@@ -7,3 +7,5 @@ export { default as SearchBar } from "./searchBar/searchBar";
 export { default as Category } from "./category/caategory";
 export { default as Videos } from "./videos/videos.jsx";
 export { default as VideoCard } from "./Video_Card/Video_Card.jsx";
+export { default as ChannelCard } from "./channel-card/channel-card.jsx";
+export { default as Loader } from "./loader/loader.jsx";

@@ -17,6 +17,7 @@ function Main() {
           `search?part=snippet&q=${select}`
         );
         setVideo(data.items);
+     
       } catch (error) {
         console.log(error);
       }
